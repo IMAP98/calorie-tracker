@@ -2,9 +2,6 @@ import { Form } from "./components/Form";
 
 function App() {
 
-
-
-
     return (
         <>
             <header className="bg-lime-600 py-3">
@@ -13,12 +10,12 @@ function App() {
                         Calorie Tracker
                     </h1>
                 </div>
-                <section className="bg-lime-500 py-20 px-5">
-                    <div className="max-w-4xl mx-auto">
-                        <Form />
-                    </div>
-                </section>
             </header>
+            <section className="bg-lime-500 py-20 px-5">
+                <div className="max-w-4xl mx-auto">
+                    <Form />
+                </div>
+            </section>
         </>
     );
 }
